@@ -31,13 +31,14 @@ This repository contains a collection of games for the [Jenkins Web Arcade](http
   - [Plume](#plume)
   - [PolyTrack](#polytrack)
   - [Recoil](#recoil)
+  - [slime-rush-td-2](#slime-rush-td-2)
   - [Subway-NY](#subway-ny)
   - [Subway-SF](#subway-sf)
   - [Subway-Surfers-Beijing](#subway-surfers-beijing)
   - [Subway-Surfers-Zurich](#subway-surfers-zurich)
   - [Superfowlist](#superfowlist)
   - [swipe-brick-breaker](#swipe-brick-breaker)
-  - [slime-rush-td-2](#slime-rush-td-2)
+  - [Synth](#synth)
   - [The-Race](#the-race)
   - [Want-it-all](#want-it-all)
   - [Weavesilk](#weavesilk)
@@ -218,6 +219,12 @@ This repository hosts games that are part of the Jenkins Web Arcade but are curr
 
 **Issue:** The service worker does not cache all necessary files, preventing offline play.
 
+### slime-rush-td-2
+
+**Status:** Fully functional except offline.
+
+**Issue:** The service worker does not cache all necessary files, preventing offline play.
+
 ### Subway-NY
 
 **Status:** Not compatible with mobiles.
@@ -254,11 +261,11 @@ This repository hosts games that are part of the Jenkins Web Arcade but are curr
 
 **Issue:** Limited features.
 
-### slime-rush-td-2
+### synth
 
-**Status:** Fully functional except offline.
+**Status:** Unity loader error.
 
-**Issue:** The service worker does not cache all necessary files, preventing offline play.
+**Issues:** The game is not functional and is not optimized for mobile devices.
 
 ### The-Race
 
