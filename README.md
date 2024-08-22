@@ -37,6 +37,7 @@ This repository contains a collection of games for the [Jenkins Web Arcade](http
   - [Subway-Surfers-Zurich](#subway-surfers-zurich)
   - [Superfowlist](#superfowlist)
   - [swipe-brick-breaker](#swipe-brick-breaker)
+  - [slime-rush-td-2](#slime-rush-td-2)
   - [The-Race](#the-race)
   - [Want-it-all](#want-it-all)
   - [Weavesilk](#weavesilk)
@@ -252,6 +253,12 @@ This repository hosts games that are part of the Jenkins Web Arcade but are curr
 **Status:** Basic game.
 
 **Issue:** Limited features.
+
+### slime-rush-td-2
+
+**Status:** Fully functional except offline.
+
+**Issue:** The service worker does not cache all necessary files, preventing offline play.
 
 ### The-Race
 
