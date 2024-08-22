@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Zombie Derby 2</title>
+    <link rel="stylesheet" href="TemplateData/style.css" />
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script src="yandex/yandex-sdk-v2.js"></script>
+    <script src="unity/unity-mod.js"></script>
+    <script>
+      function FitScreen() {
+        var w = 800;
+        var h = 480;
+        var availWidth = window.innerWidth;
+        var availHeight = window.innerHeight - 6;
+        var aspectMin = 1.33;
+        var aspectMax = 2.2;
+
+        var canvas = document.getElementById("#canvas");
+
+        var aspect = availWidth / availHeight;
+        height = availHeight;
+
+        if (aspect > aspectMin && aspect < aspectMax) {
+          width = availWidth;
+        } else {
+          if (aspect <= aspectMin) width = height * aspectMin;
+          else if (aspect >= aspectMax) width = height * aspectMax;
+        }
+
+        canvas.width = width;
+        canvas.height = height;
+
+        document.getElementById("unityContainerCentered").style.width =
+          width + "px";
+        document.getElementById("unityContainerCentered").style.height =
+          height + "px";
+      }
+
+      var unityInstance = UnityLoader.instantiate(
+        "unityContainer",
+        "Build/2022_01_23_yandex_brotli_strip_high.json",
+        { onProgress: UnityProgress }
+      );
+      var isInit = false;
+
+      YandexInit();
+
+      function YandexInit() {
+        YaGames.init().then((ysdk) => {
+          console.log("Yandex SDK initialized");
+          window.ysdk = ysdk;
+          isInit = true;
+
+          setTimeout(function () {
+            ShowFullscreenAdv();
+          }, 2500);
+        });
+      }
+
+      function OnPlayUnity() {
+        if (isInit) unityInstance.SendMessage("CameraGUI", "OnYandexInit");
+      }
+
+      function ShowFullscreenAdv() {
+        console.log("ShowFullscreenAdv");
+
+        window.ysdk.adv.showFullscreenAdv({
+          callbacks: {
+            onClose: function () {
+              unityInstance.SendMessage(
+                "CameraGUI",
+                "AdvYandexCallback",
+                "onClose"
+              );
+            },
+            onOpen: function () {
+              unityInstance.SendMessage(
+                "CameraGUI",
+                "AdvYandexCallback",
+                "onOpen"
+              );
+            },
+            onError: function () {
+              unityInstance.SendMessage(
+                "CameraGUI",
+                "AdvYandexCallback",
+                "onError"
+              );
+            },
+            onOffline: function () {
+              unityInstance.SendMessage(
+                "CameraGUI",
+                "AdvYandexCallback",
+                "onOffline"
+              );
+            },
+          },
+        });
+      }
+
+      function ShowRewardedAdv() {
+        console.log("ShowRewardedAdv");
+
+        window.ysdk.adv.showRewardedVideo({
+          callbacks: {
+            onOpen: () => {
+              unityInstance.SendMessage(
+                "CameraGUI",
+                "AdvRewardedYandexCallback",
+                "onOpen"
+              );
+            },
+            onRewarded: () => {
+              unityInstance.SendMessage(
+                "CameraGUI",
+                "AdvRewardedYandexCallback",
+                "onRewarded"
+              );
+            },
+            onClose: () => {
+              unityInstance.SendMessage(
+                "CameraGUI",
+                "AdvRewardedYandexCallback",
+                "onClose"
+              );
+            },
+            onError: (e) => {
+              unityInstance.SendMessage(
+                "CameraGUI",
+                "AdvRewardedYandexCallback",
+                "onError"
+              );
+            },
+          },
+        });
+      }
+
+      function RateMe() {
+        window.ysdk.feedback.canReview().then(({ value, reason }) => {
+          if (value) {
+            ysdk.feedback.requestReview().then(({ feedbackSent }) => {
+              console.log(feedbackSent);
+            });
+          } else {
+            console.log(reason);
+          }
+        });
+      }
+    </script>
+  </head>
+  <body
+    onfocus="FitScreen();"
+    onload="FitScreen();"
+    onresize="FitScreen();"
+    style="overflow: hidden; margin: 0; padding: 0"
+  >
+    <div class="webgl-content">
+      <div id="unityContainerCentered">
+        <div
+          id="unityContainer"
+          style="width: auto; height: auto; margin: 0"
+        ></div>
+      </div>
+    </div>
+  </body>
+</html>

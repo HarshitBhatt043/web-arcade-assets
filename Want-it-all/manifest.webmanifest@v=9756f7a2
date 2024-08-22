@@ -1,0 +1,22 @@
+{
+	"short_name": "MSI - I want it all",
+	"name": "MSI - I want it all",
+	"description": "Play and try to win a MAG Infinite S3 12th, a MAG Codex X5 12th, or a MEG Trident X 12th &amp; Optix-MAG274QRF-QD.",
+	"start_url": "/",
+	"background_color": "#000000",
+	"theme_color": "#000000",
+	"orientation": "portrait",
+	"icons": [
+		{
+			"src": "/icons/icon_192.png?v=9756f7a2",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/icons/icon_512.png?v=9756f7a2",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"display": "fullscreen"
+}

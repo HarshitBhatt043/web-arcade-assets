@@ -1,0 +1,19 @@
+{
+    "name": "MicroWaver 59\u2122",
+    "short_name": "MicroWaver 59\u2122",
+    "icons": [
+        {
+            "src": "https://static.pinkyellow.network/microwaver/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://static.pinkyellow.network/microwaver/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#00ff90",
+    "background_color": "#00ff90",
+    "display": "standalone"
+}

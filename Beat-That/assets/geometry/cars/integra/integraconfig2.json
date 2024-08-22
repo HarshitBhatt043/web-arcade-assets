@@ -1,0 +1,76 @@
+{
+	"layers": [
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "center",
+			"geometry": "assets/geometry/cars/integra/center.json",
+			"geoname": "center",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/integra",
+			"position": "[0.0, 0.6167, -0.0]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "bounding_box",
+			"geometry": "assets/geometry/cars/integra/bounding_box.json",
+			"geoname": "bounding_box",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/integra",
+			"position": "[0.0, 0.6167, -0.0]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "body",
+			"geometry": "assets/geometry/cars/integra/body.json",
+			"geoname": "body",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/integra",
+			"position": "[-0.0004, 0.7856, 0.0185]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "lights",
+			"geometry": "assets/geometry/cars/integra/lights.json",
+			"geoname": "lights",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/integra",
+			"position": "[-0.0004, 0.7856, 0.0185]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_rl",
+			"geometry": "assets/geometry/cars/integra/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/integra",
+			"position": "[0.8102, 0.3147, -1.3883]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_rr",
+			"geometry": "assets/geometry/cars/integra/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/integra",
+			"position": "[-0.8104, 0.3147, -1.3883]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_fl",
+			"geometry": "assets/geometry/cars/integra/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/integra",
+			"position": "[0.8102, 0.3147, 1.379]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_fr",
+			"geometry": "assets/geometry/cars/integra/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/integra",
+			"position": "[-0.8096, 0.3147, 1.379]"
+		}
+	]
+}

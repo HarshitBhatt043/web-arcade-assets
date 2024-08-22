@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'lomo-wall-pixel';
+    src: url('../fonts/lomo-wall-pixel.woff2') format('woff2'),
+         url('../fonts/lomo-wall-pixel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lomo-web-pixel';
+    src: url('../fonts/lomo-web-pixel.woff2') format('woff2'),
+         url('../fonts/lomo-web-pixel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html, #Stage {
+	background: #0B0920;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	-ms-content-zooming: none;
+	-ms-touch-action: none;
+	touch-action: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+html {
+	font-size: 10px;
+}
+
+#Stage *,
+#Stage *:after,
+#Stage *:before {
+	box-sizing: border-box;
+}
+
+#Stage, #Stage * {
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-text-size-adjust: none;
+}
+
+body * {
+	position: absolute;
+}
+
+body .UIL * {
+	position: unset;
+}
+
+#Stage * input,  #Stage * textarea {
+	-moz-user-select: auto;
+	-webkit-user-select: auto;
+	-o-user-select: auto;
+	-ms-user-select: auto;
+	-webkit-tap-highlight-color: auto;
+}
+
+#Stage br, #Stage span {
+	position: relative;
+}
+
+a { color: #ffffff; }
+
+#Stage button,
+#Stage input {
+	-webkit-appearance: none;
+	appearance: none;
+	background: none;
+	border: none;
+	border-radius: 0;
+	color: inherit;
+	font: inherit;
+	outline: none;
+}
+
+::-webkit-scrollbar {
+	background: #002D2D;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #02F0E2; 
+}	
+
+::placeholder {
+	color: currentColor;
+	opacity: 1;
+}
+
+::-ms-input-placeholder {
+	color: currentColor;
+}
+
+@keyframes sound {
+	0% { transform: scaleY(0.2); }
+	100% { transform: scaleY(1); }
+}
+
+.DOMAudio__Bar {
+	animation: sound 1s ease-in-out infinite alternate-reverse;
+	animation-fill-mode: forwards;
+	transform-origin: bottom;
+	transition: transform 0.5s ease;
+}
+
+.DOMAudio__Bar:nth-child(1) {
+	animation-delay: 0.2s;
+}
+
+.DOMAudio__Bar:nth-child(2) {
+	animation-delay: 0.1s;
+}
+
+.DOMAudio__Bar:nth-child(3) {
+	animation-delay: 0.6s;
+}
+
+.DOMAudio__Bar:nth-child(4) {
+	animation-delay: 0.4s;
+}
+
+.DOMAudio__Bar:nth-child(5) {
+	animation-delay: 0.8s;
+}
+
+.DOMAudio--Disable .DOMAudio__Bar {
+	animation: none;
+	transform: scaleY(0.2);
+}
+
+.draggable #Stage {
+	cursor: move !important;
+	cursor: grab !important;
+	cursor: -moz-grab !important;
+	cursor: -webkit-grab !important;
+}
+
+.draggable:active #Stage {
+	cursor: grabbing !important;
+	cursor: -moz-grabbing !important;
+	cursor: -webkit-grabbing !important;
+}
+
+.grecaptcha-badge, .grecaptcha-badge * {
+	display: none !important;
+	tab-index: -1;
+}
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Recoil</title>
+    <meta name="description" content="" />
+    <meta name="google" content="notranslate" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="fancade.css" />
+    <script src="min.js"></script>
+    <script src="cdn.jsdelivr.net/gh/st39/sdk@main/jquery.min.js"></script>
+    <script type="text/javascript">
+      window.SDK_OPTIONS = { gameId: "r2tzpy9cgrn2u4xgzc9z0zbtvxm16mby", onEvent: function (a) { switch (a.name) { case "SDK_GAME_PAUSE": // pause game logic / mute audio break; case "SDK_GAME_START": // advertisement done, resume game logic and unmute audio break; case "SDK_READY": // when sdk is ready break; } } }; (function (a, b, c) { var d = a.getElementsByTagName(b)[0]; a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "/cdn.jsdelivr.net/gh/st39/sdk@main/sdk.js", d.parentNode.insertBefore(a, d)) })(document, "script", "gamemonetize-sdk"); $(document).ready(function() { var strVar = '<div style="position:fixed;top:0;right:0;bottom:0;left:0;z-index:999;" id="nec">'; $(document.body).append(strVar); $("#nec").click(function () { if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined') { sdk.showBanner(); } $('#nec').hide(); }); }); window.setInterval(function(){ $('#nec').show(); }, 300000);
+    </script>
+  </head>
+  <body id="body">
+    <div id="modal_parent">
+      <div id="modal_content">
+        <span id="modal_close_button">&times;</span>
+        <div id="store_link_modal_content" class="modal_inner"></div>
+        <div id="share_file_modal_content" class="modal_inner"></div>
+      </div>
+    </div>
+    <div id="canvas_border" class="emscripten_border">
+      <div id="play_content" class="middle center">
+        <div class="edge">
+          <div class="box">
+            <div class="black">
+              <img src="cover.jpg" class="cover" />
+              <p class="title">Recoil</p>
+            </div>
+          </div>
+        </div>
+        <div id="progress_or_play">
+          <progress
+            id="progress"
+            class="loading"
+            value="0"
+            max="100"
+          ></progress>
+        </div>
+        <p class="description"></p>
+      </div>
+      <canvas class="emscripten" id="canvas" tabindex="-1"></canvas>
+      <div id="gradient"></div>
+      <div id="webview_content"></div>
+    </div>
+    <script
+      type="text/javascript"
+      src="source_min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="index.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scr.js"></script>
+  </body>
+</html>

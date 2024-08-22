@@ -1,0 +1,14 @@
+{
+  "offset": {
+    "buffer": [0, 0, 0, 1, 1, 1, 2, 2, 2],
+    "components": 3
+  },
+  "orientation": {
+    "buffer": [0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+    "components": 4
+  },
+  "scale": {
+    "buffer": [1, 1, 1, 1, 1, 1, 1, 1, 1],
+    "components": 3
+  }
+}

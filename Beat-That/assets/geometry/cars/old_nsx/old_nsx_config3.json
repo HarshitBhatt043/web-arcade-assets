@@ -1,0 +1,65 @@
+{
+	"layers": [
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "center",
+			"geoname": "center",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "",
+			"position": "[-0.0, 0.0, 0.0]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "bounding_box",
+			"geoname": "bounding_box",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "",
+			"position": "[-0.0, 0.0, 0.0]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "body",
+			"geometry": "assets/geometry/cars/old_nsx/body3.json",
+			"geoname": "body",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/old_nsx",
+			"position": "[0.0, 0.6351, 0.0]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_rl",
+			"geometry": "assets/geometry/cars/old_nsx/wheel3.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, -0.0, 0.0, 1.0]",
+			"directory": "cars/old_nsx",
+			"position": "[0.7278, 0.32, -1.2095]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_rr",
+			"geometry": "assets/geometry/cars/old_nsx/wheel3.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/old_nsx",
+			"position": "[-0.7319, 0.32, -1.2086]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_fr",
+			"geometry": "assets/geometry/cars/old_nsx/wheel3.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/old_nsx",
+			"position": "[-0.7319, 0.32, 1.2473]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_fl",
+			"geometry": "assets/geometry/cars/old_nsx/wheel3.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, -0.0, 0.0, 1.0]",
+			"directory": "cars/old_nsx",
+			"position": "[0.7278, 0.32, 1.2517]"
+		}
+	]
+}

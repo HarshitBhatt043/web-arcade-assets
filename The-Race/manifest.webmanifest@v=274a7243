@@ -1,0 +1,22 @@
+{
+	"short_name": "Montblanc Legend Red - The Race",
+	"name": "Montblanc Legend Red - The Race",
+	"description": "Discover Montblanc Legend Red",
+	"start_url": "/",
+	"background_color": "#000000",
+	"theme_color": "#200305",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"icons": [
+		{
+			"src": "/icons/icon_192.png?v=274a7243",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/icons/icon_512.png?v=274a7243",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	]
+}

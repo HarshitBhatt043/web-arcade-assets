@@ -1,0 +1,65 @@
+{
+	"layers": [
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "center",
+			"geoname": "center",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "",
+			"position": "[0.0, 0.6167, -0.0]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "bounding_box",
+			"geoname": "bounding_box",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "",
+			"position": "[0.0, 0.6167, -0.0]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "body",
+			"geometry": "assets/geometry/cars/integra/body.json",
+			"geoname": "body",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/integra",
+			"position": "[-0.0014, 0.736, -0.0181]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_fl",
+			"geometry": "assets/geometry/cars/integra/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/integra",
+			"position": "[0.8879, 0.351, 1.5115]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_rl",
+			"geometry": "assets/geometry/cars/integra/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/integra",
+			"position": "[0.8879, 0.351, -1.496]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_rr",
+			"geometry": "assets/geometry/cars/integra/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/integra",
+			"position": "[-0.8958, 0.351, -1.4949]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_fr",
+			"geometry": "assets/geometry/cars/integra/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/integra",
+			"position": "[-0.8958, 0.351, 1.5062]"
+		}
+	]
+}

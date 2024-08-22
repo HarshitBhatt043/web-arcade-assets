@@ -1,0 +1,83 @@
+{
+	"layers": [
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "center",
+			"geoname": "center",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "",
+			"position": "[0.0, 0.6175, -0.0]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "bounding_box",
+			"geoname": "bounding_box",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "",
+			"position": "[0.0, 0.6175, -0.0]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "body",
+			"geometry": "assets/geometry/cars/new_nsx/body.json",
+			"geoname": "body",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/new_nsx",
+			"position": "[0.0, 0.6699, -0.0008]"
+		},
+		{
+			"scale": "[1.0015, 1.001, 1.001]",
+			"name": "lights",
+			"geometry": "assets/geometry/cars/new_nsx/lights.json",
+			"geoname": "lights",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/new_nsx",
+			"position": "[0.0, 0.6699, -0.0008]"
+		},
+		{
+			"scale": "[1.001, 1.001, 1.001]",
+			"name": "brakelights",
+			"geometry": "assets/geometry/cars/new_nsx/brakelights.json",
+			"geoname": "brakelights",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/new_nsx",
+			"position": "[0.0, 0.6699, -0.0008]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_rl",
+			"geometry": "assets/geometry/cars/new_nsx/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/new_nsx",
+			"position": "[0.8083, 0.3486, -1.4064]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_rr",
+			"geometry": "assets/geometry/cars/new_nsx/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/new_nsx",
+			"position": "[-0.8083, 0.3486, -1.4064]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_fl",
+			"geometry": "assets/geometry/cars/new_nsx/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/new_nsx",
+			"position": "[0.789, 0.3486, 1.2235]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_fr",
+			"geometry": "assets/geometry/cars/new_nsx/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/new_nsx",
+			"position": "[-0.789, 0.3486, 1.2235]"
+		}
+	]
+}

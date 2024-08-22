@@ -1,0 +1,224 @@
+{
+  "features": {
+    "highscores": 1,
+    "rewarded": 1
+  },
+  "game_i18n": {},
+  "game_info": {
+    "client_version": "3.8.0",
+    "api_version": "2.0",
+    "power_ups": [
+      "PowerUpFirstPersonView",
+      "PowerUpDoubleCoins",
+      "PowerUpRocket",
+      "PowerUpMagnet",
+      "PowerUpHighJump"
+    ],
+    "forced_mode": {
+      "state": {
+        "level": {
+          "description": "The current level. Keep the level number between 1 and 120 (incusive). Use -1 to start a endless mode",
+          "type": "number",
+          "min": -1,
+          "max": 120
+        },
+        "coins": {
+          "description": "The amount of coins available to player",
+          "type": "number",
+          "min": 0,
+          "max": 1000000
+        },
+        "pass_distance": {
+          "description": "Limits the distance required to pass a level in forced mode. For example, if the value is set to 1000, the game will be completed once the player has run 1000m",
+          "type": "number",
+          "min": 0
+        }
+      },
+      "override": {
+        "hide_ui": {
+          "description": "What UI elements should be hidden? Mission objective is a sentense displayed before level is started, mission progress displays current progress (e.g. 2/5 stunts performed, current score, collected tokens etc.)",
+          "type": "array",
+          "values": ["coins", "mission_objective", "mission_progress"]
+        },
+        "disable_powerups": {
+          "description": "Should powerups be disabled",
+          "type": "boolean"
+        }
+      }
+    },
+    "track_stats": {
+      "powerup_collected": {
+        "description": "Player collected an item",
+        "params": {
+          "powerup_type": {
+            "type": "string",
+            "values": [
+              "PowerUpFirstPersonView",
+              "PowerUpDoubleCoins",
+              "PowerUpRocket",
+              "PowerUpMagnet",
+              "PowerUpHighJump"
+            ]
+          }
+        }
+      },
+      "token_collected": {
+        "description": "Player collected a token",
+        "type": "number"
+      },
+      "letter_collected": {
+        "description": "Player collected a letter",
+        "params": {
+          "letter": {
+            "type": "string",
+            "values": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H",
+              "I",
+              "J",
+              "K",
+              "L",
+              "M",
+              "N",
+              "O",
+              "P",
+              "Q",
+              "R",
+              "S",
+              "T",
+              "U",
+              "V",
+              "W",
+              "X",
+              "Y",
+              "Z"
+            ]
+          }
+        }
+      },
+      "coins_collected": {
+        "description": "Player collected some coins (picked up or used magnetised)",
+        "params": {
+          "method": {
+            "type": "string",
+            "values": ["picked_up", "magnetized"]
+          },
+          "during_stunt": {
+            "type": "boolean"
+          }
+        }
+      },
+      "coins_spent": {
+        "description": "Player spent some coins",
+        "type": "number"
+      },
+      "lane_changed": {
+        "description": "Player changed a lane",
+        "params": {
+          "direction": {
+            "type": "string",
+            "values": ["leftward", "rightward"]
+          }
+        }
+      },
+      "jumped": {
+        "description": "Player jumped",
+        "params": {
+          "jump_type": {
+            "type": "string",
+            "values": ["simple_jump", "high_jump"]
+          }
+        }
+      },
+      "slided": {
+        "description": "Player slided",
+        "type": "number"
+      },
+      "died": {
+        "description": "Player died (collided or drowned into lava or underground)",
+        "params": {
+          "reason": {
+            "type": "string",
+            "values": ["collided", "drowned"]
+          }
+        }
+      },
+      "stunt_performed": {
+        "description": "Player performed a stunt and has been rewarded with some points for it",
+        "params": {
+          "stunt_name": {
+            "type": "string",
+            "values": [
+              "Log Roll",
+              "Triple Threat",
+              "Soaring Eagle",
+              "Hail To The Masses",
+              "Get To The Choppa",
+              "Queen Of The World",
+              "Chillax Kid",
+              "Nunchaku Kid",
+              "Vitruvian Kid",
+              "Low Trajectory",
+              "Scooterang",
+              "Orbital Dash",
+              "Hi Yo Scooter",
+              "Stellar Boost",
+              "Sharp Scooter",
+              "Bladespin",
+              "Bravura Blade",
+              "Domination",
+              "Tongue Twister",
+              "Lickety Split",
+              "Look Ma No Hands",
+              "Brace Yourself",
+              "High Dive",
+              "Putting On Airs",
+              "Underachiever",
+              "Ricochet Slam",
+              "Train Wheel",
+              "Underachiever",
+              "Ricochet Slam",
+              "Train Wheel",
+              "Underachiever",
+              "Ricochet Slam",
+              "Train Wheel",
+              "Log Roll",
+              "Triple Threat",
+              "Soaring Eagle",
+              "Underachiever",
+              "Ricochet Slam",
+              "Train Wheel",
+              "Hail To The Masses",
+              "Get To The Choppa",
+              "Queen Of The World",
+              "Log Roll",
+              "Triple Threat",
+              "Soaring Eagle"
+            ]
+          },
+          "stunt_reward": {
+            "type": "number",
+            "min": 0,
+            "max": 1000
+          }
+        }
+      }
+    },
+    "orientation": {
+      "phone": {
+        "portrait": "green",
+        "landscape": "green"
+      },
+      "tablet": {
+        "portrait": "green",
+        "landscape": "green"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "companyName": "",
+  "productName": "Zombie Derby 2",
+  "productVersion": "1.0.14",
+  "dataUrl": "2022_01_23_yandex_brotli_strip_high.data.unityweb",
+  "wasmCodeUrl": "2022_01_23_yandex_brotli_strip_high.wasm.code.unityweb",
+  "wasmFrameworkUrl": "2022_01_23_yandex_brotli_strip_high.wasm.framework.unityweb.js",
+  "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+  "webglContextAttributes": { "preserveDrawingBuffer": false },
+  "splashScreenStyle": "Dark",
+  "backgroundColor": "#231F20",
+  "cacheControl": { "default": "must-revalidate" },
+  "developmentBuild": false,
+  "multithreading": false,
+  "unityVersion": "2019.2.12f1"
+}

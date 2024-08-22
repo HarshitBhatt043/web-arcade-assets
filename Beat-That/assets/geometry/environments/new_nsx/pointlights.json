@@ -1,0 +1,39 @@
+{
+	"layers": [
+		{
+			"geometry": "assets/geometry/pointlights/plight1.json",
+			"position": "[-41.8494, 2.0, 1274.9197]",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "plight1"
+		},
+		{
+			"geometry": "assets/geometry/pointlights/plight2.json",
+			"position": "[26.4169, 2.0, 989.6036]",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "plight2"
+		},
+		{
+			"geometry": "assets/geometry/pointlights/plight3.json",
+			"position": "[12.2311, 2.0, 692.8663]",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "plight3"
+		},
+		{
+			"geometry": "assets/geometry/pointlights/plight4.json",
+			"position": "[54.3794, 2.0, 433.8905]",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "plight4"
+		},
+		{
+			"geometry": "assets/geometry/pointlights/plight5.json",
+			"position": "[17.7431, 2.0, 141.6189]",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "plight5"
+		}
+	]
+}

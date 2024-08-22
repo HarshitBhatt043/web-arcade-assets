@@ -1,0 +1,57 @@
+{
+	"layers": [
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "track",
+			"geometry": "assets/geometry/nsx/track.json",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "nsx",
+			"position": "[0.0, -0.1472, 0.2273]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "body",
+			"geometry": "assets/geometry/nsx/body.json",
+			"geoname": "body",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "nsx",
+			"position": "[0.0003, 0.6796, 0.2293]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_fl",
+			"geometry": "assets/geometry/nsx/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "nsx",
+			"position": "[0.8189, 0.3411, 1.5442]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_rl",
+			"geometry": "assets/geometry/nsx/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "nsx",
+			"position": "[0.8283, 0.3502, -1.1235]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_rr",
+			"geometry": "assets/geometry/nsx/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "nsx",
+			"position": "[-0.8253, 0.3502, -1.1235]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_fr",
+			"geometry": "assets/geometry/nsx/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "nsx",
+			"position": "[-0.8153, 0.3411, 1.5442]"
+		}
+	]
+}

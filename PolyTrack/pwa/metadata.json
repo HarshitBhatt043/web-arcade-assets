@@ -1,0 +1,78 @@
+{
+    "game_id": 1829893,
+    "title": "PolyTrack",
+    "url": "https://kodub.itch.io/polytrack",
+    "cover_url": "https://img.itch.zone/aW1nLzEzNzgyNzE0LnBuZw==/original/4EROKt.png",
+    "screenshots": [
+        "https://img.itch.zone/aW1hZ2UvMTgyOTg5My8xMzc4MjcyNy5wbmc=/original/wd2jM0.png",
+        "https://img.itch.zone/aW1hZ2UvMTgyOTg5My8xMzc4MjczMS5wbmc=/original/POq9YS.png",
+        "https://img.itch.zone/aW1hZ2UvMTgyOTg5My8xMzc4MjcyNS5wbmc=/original/lVPemr.png",
+        "https://img.itch.zone/aW1hZ2UvMTgyOTg5My8xMzc4MjcyOS5wbmc=/original/9JGasI.png",
+        "https://img.itch.zone/aW1hZ2UvMTgyOTg5My8xMzc4MjcyNi5wbmc=/original/CmxvTh.png",
+        "https://img.itch.zone/aW1hZ2UvMTgyOTg5My8xMzc4MjczMC5wbmc=/original/6JwLj%2F.png",
+        "https://img.itch.zone/aW1hZ2UvMTgyOTg5My8xMzc4MjcyOC5wbmc=/original/og2jJa.png"
+    ],
+    "description": "A high speed low-poly racing game.",
+    "author": "Kodub",
+    "author_url": "https://kodub.itch.io",
+    "extra": {
+        "status": "In development",
+        "platforms": [
+            "Windows",
+            "Linux",
+            "HTML5"
+        ],
+        "genre": {
+            "Racing": "https://itch.io/games/tag-racing"
+        },
+        "tools": {
+            "Blender": "https://itch.io/games/made-with-blender",
+            "Audacity": "https://itch.io/games/made-with-audacity",
+            "Three.js": "https://itch.io/games/made-with-threejs",
+            "Bullet (Physics Engine)": "https://itch.io/games/made-with-bullet",
+            "GIMP": "https://itch.io/games/made-with-gimp"
+        },
+        "tags": {
+            "3D": "https://itch.io/games/tag-3d",
+            "Arcade": "https://itch.io/games/tag-arcade",
+            "Difficult": "https://itch.io/games/tag-difficult",
+            "Driving": "https://itch.io/games/tag-driving",
+            "High Score": "https://itch.io/games/tag-high-score",
+            "Level Editor": "https://itch.io/games/tag-level-editor",
+            "Low-poly": "https://itch.io/games/tag-low-poly",
+            "Singleplayer": "https://itch.io/games/tag-singleplayer",
+            "Speedrun": "https://itch.io/games/tag-speedrun"
+        },
+        "length": "A few seconds",
+        "languages": {
+            "Arabic": "https://itch.io/games/lang-ar",
+            "German": "https://itch.io/games/lang-de",
+            "English": "https://itch.io/games/lang-en",
+            "Spanish; Castilian": "https://itch.io/games/lang-es",
+            "French": "https://itch.io/games/lang-fr",
+            "Italian": "https://itch.io/games/lang-it",
+            "Japanese": "https://itch.io/games/lang-ja",
+            "Korean": "https://itch.io/games/lang-ko",
+            "Polish": "https://itch.io/games/lang-pl",
+            "Portuguese (Portugal)": "https://itch.io/games/lang-pt",
+            "Portuguese (Brazil)": "https://itch.io/games/lang-pt-BR",
+            "Russian": "https://itch.io/games/lang-ru",
+            "Turkish": "https://itch.io/games/lang-tr",
+            "Ukrainian": "https://itch.io/games/lang-uk",
+            "Chinese (Simplified)": "https://itch.io/games/lang-zh_Hans",
+            "Chinese (Traditional)": "https://itch.io/games/lang-zh_Hant"
+        },
+        "inputs": {
+            "Keyboard": "https://itch.io/games/input-keyboard"
+        },
+        "accessibility": {
+            "Configurable controls": "https://itch.io/games/accessibility-configurable-controls"
+        }
+    },
+    "rating": {
+        "average": 4.7,
+        "votes": 78
+    },
+    "errors": [],
+    "external_downloads": []
+}

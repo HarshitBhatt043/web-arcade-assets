@@ -1,0 +1,74 @@
+{
+	"layers": [
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "center",
+			"geoname": "center",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "",
+			"position": "[0.0, 0.8473, -0.0]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "bounding_box",
+			"geoname": "bounding_box",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "",
+			"position": "[0.0, 0.8473, -0.0]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "body",
+			"geometry": "assets/geometry/cars/rdx/body.json",
+			"geoname": "body",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/rdx",
+			"position": "[-0.0007, 0.9864, -0.004]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "lights",
+			"geometry": "assets/geometry/cars/rdx/lights.json",
+			"geoname": "lights",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/rdx",
+			"position": "[-0.0007, 0.9864, -0.004]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_rl",
+			"geometry": "assets/geometry/cars/rdx/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/rdx",
+			"position": "[0.8099, 0.3738, -1.3533]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_rr",
+			"geometry": "assets/geometry/cars/rdx/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/rdx",
+			"position": "[0.8099, 0.3738, -1.3533]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_fl",
+			"geometry": "assets/geometry/cars/rdx/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/rdx",
+			"position": "[0.8099, 0.3738, -1.3533]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_fr",
+			"geometry": "assets/geometry/cars/rdx/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "cars/rdx",
+			"position": "[0.8099, 0.3738, -1.3533]"
+		}
+	]
+}

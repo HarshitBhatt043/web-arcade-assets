@@ -1,0 +1,63 @@
+{
+	"layers": [
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "body",
+			"geometry": "assets/geometry/cars/hum3dtest/body.json",
+			"geoname": "body",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "hum3dtest",
+			"position": "[0.0, 0.9856, -0.0068]"
+		},
+		{
+			"geometry": "assets/geometry/cars/hum3dtestconfig/center.json",
+			"position": "[0.0, 0.8353, -0.0]",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "center"
+		},
+		{
+			"geometry": "assets/geometry/cars/hum3dtestconfig/bounding_box.json",
+			"position": "[0.0, 0.8353, -0.0]",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"scale": "[1.891, 1.657, 4.424]",
+			"name": "bounding_box"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_fr",
+			"geometry": "assets/geometry/cars/hum3dtest/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "hum3dtest",
+			"position": "[-0.7829, 0.3494, 1.3347]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_rr",
+			"geometry": "assets/geometry/cars/hum3dtest/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "hum3dtest",
+			"position": "[-0.7829, 0.3494, -1.4831]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_rl",
+			"geometry": "assets/geometry/cars/hum3dtest/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "hum3dtest",
+			"position": "[0.7844, 0.3494, -1.4831]"
+		},
+		{
+			"scale": "[1.0, 1.0, 1.0]",
+			"name": "wheel_fl",
+			"geometry": "assets/geometry/cars/hum3dtest/wheel.json",
+			"geoname": "wheel",
+			"quaternion": "[0.0, 0.0, -0.0, 1.0]",
+			"directory": "hum3dtest",
+			"position": "[0.7844, 0.3494, 1.3347]"
+		}
+	]
+}
