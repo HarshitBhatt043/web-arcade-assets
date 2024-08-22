@@ -1,0 +1,1 @@
+$dv.tags[$uid].set({"bgm":1});$dv.CommonData.deviceType = 1;$dv.CommonData.detectedDeliveryType = 0;$dv.tags[$uid].deviceType = 1;$dv.tags[$uid].detectedDeliveryType = 0;try{$dv.pubSub.publish('ImpressionServed', $uid);$dv.pubSub.publish('ImpressionServed', $frmId);}catch(e){}

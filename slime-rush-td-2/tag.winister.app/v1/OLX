@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><VAST version="3.0">
+  
+    <Ad id="1687235169153">
+      <Wrapper>
+        <AdSystem>ADX</AdSystem>
+        <Error><![CDATA[https://tag.winister.app/v1/OLX/vast/err?env=dmn&pid=AZRN&hid=3PJ&typ=video&uhost=N%2FA&fp=910&ntw=adx]]></Error>
+        <Impression><![CDATA[https://tag.winister.app/v1/OLX/vast/imp?env=dmn&pid=AZRN&hid=3PJ&typ=video&uhost=N%2FA&fp=910&ntw=adx]]></Impression>
+        <VASTAdTagURI><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?iu=%2F22110840991%2FDMN%2FAZRN%2F3PJ%2FOLX&sz=400x300%7C640x480&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=1687234527661&description_url=Azerion%20Domain%20Network&cust_params=ctype%3Dgame%26fp%3D910]]></VASTAdTagURI>
+        <Extensions>
+          <Extension type="waterfall" fallback_index="0"/>
+        </Extensions>
+      </Wrapper>
+    </Ad>
+  
+</VAST>

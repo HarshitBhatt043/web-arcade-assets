@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OPUS</title>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-98SJMCEF0K"
+    ></script>
+    <script>
+      function getHashParams() {
+        var hash = window.location.hash.substr(1);
+
+        if (!hash) {
+          return {}; // If the hash is empty or doesn't exist, return an empty object
+        }
+
+        var hashPairs = hash.split("&");
+
+        var params = {};
+        for (var i = 0; i < hashPairs.length; i++) {
+          var pair = hashPairs[i];
+          if (!pair) {
+            continue; // If there's an empty parameter, skip it
+          }
+
+          var keyValue = pair.split("=");
+
+          // If there is no value, avoid setting the value as undefined by adding a check
+          if (keyValue.length === 2) {
+            params[decodeURIComponent(keyValue[0])] = decodeURIComponent(
+              keyValue[1]
+            );
+          } else {
+            params[decodeURIComponent(keyValue[0])] = undefined;
+          }
+        }
+        return params;
+      }
+
+      function init() {
+        const queryParams = getHashParams();
+
+        document.title = queryParams.page_title || document.title;
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-98SJMCEF0K", { send_page_view: false });
+
+        gtag("event", "page_view", {
+          ...queryParams,
+        });
+      }
+      
+      init();
+    </script>
+  </head>
+  <body></body>
+</html>
